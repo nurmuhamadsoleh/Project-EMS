@@ -1,0 +1,122 @@
+{
+  "user": [
+    {
+      "username": "NurMuhamad",
+      "name": "NurMuhamadSoleh",
+      "email": "nursoleh33@gmail.com",
+      "level": "superadmin",
+      "status": "aktif",
+      "id": 5
+    },
+    {
+      "username": "nursoleh",
+      "name": "Nur Muhamad Soleh",
+      "email": "nursoleh33@gmail.com",
+      "level": "superadmin",
+      "status": "aktif",
+      "id": 9
+    }
+  ],
+  "meter": [
+    {
+      "id": 2123,
+      "meterGroupID": "GD4",
+      "meterGroupName": "GD2, GD1, OFFICE"
+    },
+    {
+      "meterGroupID": "GD 1",
+      "meterGroupName": "GD 2",
+      "id": 2135
+    }
+  ],
+  "masterdata": [
+    {
+      "ID": "COM1_1",
+      "type": "PM800",
+      "serial": "COM1_1",
+      "name": "WWTP NEW",
+      "group": "POWER HOUSE & WWTP",
+      "location": "WWTP",
+      "power": "100.000",
+      "vnominal": "380",
+      "lnominal": "900",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "ID": "COM1_1",
+      "type": "PM800",
+      "serial": "COM1_1",
+      "name": "WWTP NEW",
+      "group": "POWER HOUSE & WWTP",
+      "location": "WWTP",
+      "power": "100.000",
+      "vnominal": "380",
+      "lnominal": "300"
+    },
+    {
+      "ID": "COM2_1",
+      "type": "PM800",
+      "serial": "COM2_2",
+      "name": "LV2_LT2",
+      "group": "GD CU & GD OT",
+      "location": "GD CU & GD OT",
+      "power": "332.000",
+      "vnominal": "280",
+      "lnominal": "200",
+      "id": 4
+    }
+  ],
+  "alarm": [
+    {
+      "id": 233,
+      "alarmtype": "UC",
+      "idmeters": "COM4-7",
+      "namagroup": "COMP4_7|GD2, GD1.OFFICE/OFFICE",
+      "alarmlog": "Proses",
+      "datetime": "2022-06-07 05:00",
+      "created": "2022-06-07 05:00",
+      "upload": "2022-06-07 05:02:03"
+    },
+    {
+      "id": 286,
+      "alarmtype": "PF",
+      "idmeters": "COM1_3",
+      "namagroup": "COMP1_3|POWER HOUSE & WWTP/POWER HOUSE",
+      "alarmlog": "Proses",
+      "datetime": "2022-06-07 05:00",
+      "created": "2022-06-07 05:00",
+      "upload": "2022-06-07 05:02:03"
+    },
+    {
+      "id": 312,
+      "alarmtype": "HC",
+      "idmeters": "COM4_1",
+      "namagroup": "COMP4_1|GD2, GD1.OFFICE/GD2, GD1.OFFICE",
+      "alarmlog": "Proses",
+      "datetime": "2022-06-07 05:00",
+      "created": "2022-06-07 05:00",
+      "upload": "2022-06-07 05:02:03"
+    }
+  ],
+  "karyawan": [
+    {
+      "name": "nur",
+      "email": "nursoleh42@gmail.com",
+      "address": "Jakarta",
+      "id": 2345
+    },
+    {
+      "name": "Muhamad ",
+      "email": "muhamadsoleh42@gmail.com",
+      "address": "Jakarta Barat",
+      "id": 2349
+    },
+    {
+      "name": "Soleh",
+      "email": "soleh33@gmail.com",
+      "address": "Jakarta",
+      "id": 2350
+    }
+  ]
+}
